@@ -2,6 +2,7 @@
   <div id="app">
     <appHeader/>
     <main>
+      <app-main/>
     </main>
     <app-footer/>
   </div>
@@ -11,12 +12,14 @@
 import dati from './dati.json'
 import AppFooter from './components/appFooter.vue'
 import appHeader from './components/appHeader.vue'
+import AppMain from './components/appMain.vue'
 
 export default {
   name: 'App',
   components: {
     appHeader,
     AppFooter,
+    AppMain,
   },
   data(){
     return{

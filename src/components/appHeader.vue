@@ -1,19 +1,20 @@
 <template>
   <div class="hello">
     <div class="container-fluid">
+      
       <div class="container">
         <div class="row">
-          <div class="col-4">
-            <!-- <img src="../public/img/artist-blog-01-480x325.jpg" alt=""> -->
+          <div class="col-3">
+            <img :src="'../img/light-logo.png'" alt="">
           </div>
-          <div class="col-4">
-            <ul>
-              <li v-for="dato in myDati" :key="dato"> <a href="#">{{myDati[0].link}}</a>
+          <div class="col-6">
+            <ul class="d-flex">
+              <li v-for="dato in myDati" :key="dato"> <a href="#">{{dato.link}}</a>
                 <span><i class="fa-solid fa-chevron-down"></i></span>
               </li>
             </ul>
           </div>
-          <div class="col-4">
+          <div class="col-3">
             <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="Search.." aria-label="Recipient's username" aria-describedby="button-addon2">
               <button class="btn btn-light " type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass glass"></i></button>
@@ -52,6 +53,23 @@ export default {
 }
 .glass{
   color: $color-c;
+}
+ul{
+  list-style-type: none;
+  text-decoration: none;
+
+}
+li{
+  padding: 10px;
+
+}
+i{
+  font-size: 10px;
+  padding: 5px;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 
 
