@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <h1 class="text-center">ndewnvciebvieqbviwfvir</h1>
     <appHeader/>
+    <main>
+
+    </main>
+    <app-footer/>
   </div>
 </template>
 
 <script>
+import AppFooter from './components/appFooter.vue'
 import appHeader from './components/appHeader.vue'
 
 export default {
   name: 'App',
   components: {
     appHeader,
+    AppFooter,
   }
 }
 </script>
