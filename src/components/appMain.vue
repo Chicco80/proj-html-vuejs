@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
         <section class="second py-5 my-5 text-center">
             <div class="container">
                 <div class="row justify-content-center">
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </section>
-        <div class="number">
+        <div class="container number">
             <div class="row justify-content-center text-center">
                 <div class="col-2">
                    <p class="green">1.926</p>
@@ -193,6 +193,7 @@
             <div class="container text-center">
                 <h2>Why People Talk About <span class="green fw-lighter fs-2">MaxCoach</span>? </h2>
             </div>
+            <div class="container">
             <div class="row mt-5">
                 <div class="col">
                     <div class="d-flex justify-content-center">
@@ -204,6 +205,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
             <div class="container my-5">
                 <ul class="d-flex justify-content-center align-items-center ">

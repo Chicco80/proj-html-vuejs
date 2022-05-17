@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <div class="container-fluid">
-      
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -20,10 +19,8 @@
               <button class="btn btn-light " type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass glass"></i></button>
             </div>
           </div>
-
         </div>
       </div>
-      
     </div>
   </div>
 </template>
