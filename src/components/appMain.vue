@@ -296,7 +296,6 @@
             </div>
 
         </section>
-       
 </div>
 </template>
 
