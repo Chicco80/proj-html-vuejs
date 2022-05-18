@@ -209,7 +209,10 @@
             </div>
         </section>
         <section>
-            <div class="container text-center">
+            <!-- fine corsi -->
+
+            <!-- sezione partner -->
+            <div class="container text-center py-5">
                 <h2>Why People Talk About <span class="green fw-lighter fs-2">MaxCoach</span>? </h2>
             </div>
             <div class="container">
@@ -237,13 +240,13 @@
                 </ul>
             </div>
         </section>
-        <!-- fine corsi -->
+            <!-- fine partner -->
 
-            <!-- partner -->
+            <!-- artisti -->
         <section class="bg-hint py-5">
             <div class="container text-center">
                 <h6 class="mt-5">ENJOY READING ON MAXCOACH</h6>
-                <h2>Latest on <span class="green fw-lighter">Our Blogs</span></h2>
+                <h2>Latest on <span class="green fw-lighter fs-2">Our Blogs</span></h2>
             </div>
             <div class="container my-5">
             <div class="row py-5">
@@ -258,9 +261,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- fine partner -->
-
-                <!-- artisti -->
                 <div class="col-4">
                     <div class="card" style="width: 25rem;">
                         <img :src="'./img/artist-blog-01-480x325.jpg'" class="card-img-top" alt="...">
@@ -292,7 +292,7 @@
             <!-- sezione icone -->
             <div class="container my-5 text-center">
                 <h6>WANNA TRASFORM YOUR LIFE?</h6>
-                <h2>Glad to <span class="green fw-lighter fs-3">Help You</span> Learn</h2>
+                <h2>Glad to <span class="green fw-lighter fs-2">Help You</span> Learn</h2>
             </div>
             <div class="container ">
                 <div class="row my-5">
