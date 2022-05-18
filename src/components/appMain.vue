@@ -4,19 +4,19 @@
         <div class="title text-center py-5">
             <h1>Learn At Your Own Pace!</h1>
             <p>Get teamed up with people with the same will</p>
-            <button type="button" class="btn btn-success">Get started for free</button>
+            <button type="button" class="btn btn-success s-change">Get started for free</button>
         </div>
         <div class="container images">
             <div class="row ">
                 <div class="col-3">
-                    <img :src="'../img/home-6-hero-left-person.png'" alt="left-person" class="w-100 left">
+                    <img :src="'../img/home-6-hero-left-person-244x300.png'" alt="left-person" class="w-100">
                 </div>
                 <div class="col-6">
-                    <img :src="'../img/home-6-hero-poster-final.jpg'" alt="hero-poster" class="w-100 center img-thumbnail">
+                    <img :src="'../img/home-6-hero-poster-final.jpg'" alt="hero-poster" class="w-100 img-thumbnail">
                     <img :src="'../img/icon-youtube-play.png'" alt="youtube-play" class="yout">
                 </div>
                 <div class="col-3">
-                    <img :src="'../img/home-6-hero-right-person.png'" alt="right-person" class="w-100 h-100 right">
+                    <img :src="'../img/home-6-hero-right-person.png'" alt="right-person" class="mt-5 pt-4">
                 </div>
             </div>
         </div>
@@ -35,36 +35,36 @@
         <div class="container number">
             <div class="row justify-content-center text-center">
                 <div class="col-2">
-                   <p class="green">1.926</p>
-                   <p class="small">FINISHED SESSION</p>
+                    <p class="green fs-2">1.926</p>
+                    <p class="small">FINISHED SESSION</p>
                 </div>
                 <div class="col-2">
-                    <p class="green">3.092+</p>
+                    <p class="green fs-2">3.092+</p>
                     <p class="small">ENROLLED LEANERS</p>
                 </div>
                 <div class="col-2">
-                    <p class="green">200</p>
+                    <p class="green fs-2">200</p>
                     <p class="small">ONLINE INSTRUCTION</p>
                 </div>
                 <div class="col-2">
-                    <p class="green">100%</p>
+                    <p class="green fs-2">100%</p>
                     <p class="small">SATISFACTION RATE</p>
                 </div>
             </div>
         </div>
-        <div class="container my-5">
-            <div class="row">
+        <div class="container my-5 pb-5 cont-pos ">
+            <div class="row ">
                 <div class="col-3 ">
-                    <div class="card mb-3" style="width: 18rem;">
+                    <div class="card card-h box-shadow" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="fw-bold">Graphic Design</h5>
                             <p class="card-text">Have a passion for graphics and arts? Show your talent with confidence and self-assertiveness.</p>
                         </div>
-                        <img :src="'./img/home-6-service-image-01.png'" class="card-img-top  imgOne" alt="img01">
+                        <img :src="'./img/home-6-service-image-01.png'" class="card-img-top" alt="img01">
                     </div>
                 </div>
-                 <div class="col-3 ">
-                    <div class="card mt-5" style="width: 18rem;">
+                <div class="col-3 ">
+                    <div class="card card-h mb-3 img-one box-shadow" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="fw-bold">Businnes Administration</h5>
                             <p class="card-text">Learners and encouraged to study the mechanism and structure of sistem administration.</p>
@@ -72,8 +72,8 @@
                         <img :src="'./img/home-6-service-image-02.png'" class="card-img-top" alt="img01">
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card check" style="width: 26rem;">
+                <div class="col-4">
+                    <div class="card check box-shadow" style="width: 26rem;">
                         <div class="card-body">
                             <h6 class="card-subtitle mb-2 text-muted">TOGETHER WE CAN CREATE</h6>
                             <h5 class="card-title font">Service We <span class="green fs-2 fw-lighter">Can Provide</span> For My Client</h5>
@@ -81,14 +81,14 @@
                             <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Change the tutor and make arrangement</p>
                             <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Partecipate in event to join others</p>
                             <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Get teh desired certificate delivered at house</p>
-                            <button type="button" class="btn btn-success">Get started for free</button>
+                            <button type="button" class="btn btn-success s-change">Get started for free</button>
         
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-3">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card card-h mt-4 box-shadow" style="width: 18rem;">
                             <img :src="'./img/home-6-service-image-03.png'" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="fw-bold">Idea Discussion</h5>
@@ -96,8 +96,8 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card mt-5" style="width: 18rem;">
+                    <div class="col-3 ms-1">
+                        <div class="card card-h img-two box-shadow" style="width: 18rem;">
                             <img :src="'./img/home-6-service-image-04.png'" class="card-img-top mt-5 pt-5" alt="...">
                         <div class="card-body mt-4 pt-4">
                             <h5 class="fw-bold">Web Developement</h5>
@@ -108,16 +108,16 @@
                 </div>
             </div>
         </div>
-        <section class="grey">
-            <div class="container grey py-5">
+        <section class="bg-hint py-5">
+            <div class="container py-5">
                 <h6 class="text-center">CHOOSE A COURSE AND GET STARTED</h6>
-                <h2 class="text-center">Latest Featured <span class="green fw-lighter ">Courses</span></h2>
+                <h2 class="text-center">Latest Featured <span class="green fw-lighter fs-3">Courses</span></h2>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-6">
-                        <div class="d-flex">
-                            <img :src="'./img/stock-full-hd-03-480x298.jpg'" alt="full-hd" class="imgRound">
+                        <div class="d-flex card-on">
+                            <img :src="'./img/course-02-480x298.jpg'" alt="full-hd" class="imgRound">
                             <div class="descrption ps-3">
                             <h4 class="green">$40.00</h4>
                             <h4 class="fs-5 fw-bold">Learning to write as a Professional Autor</h4>
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="d-flex">
+                        <div class="d-flex card-on ">
                             <img :src="'./img/stock-full-hd-03-480x298.jpg'" alt="full-hd" class="imgRound">
                             <div class="descrption ps-3">
                             <h4 class="green">Free</h4>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="row mt-5">
                         <div class="col-6">
-                            <div class="d-flex">
+                            <div class="d-flex card-on">
                                 <img :src="'./img/stock-full-hd-04-480x298.jpg'" alt="full-hd" class="imgRound">
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 19.00</h4>
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex">
+                            <div class="d-flex ms-3 card-on">
                                 <img :src="'./img/stock-full-hd-06-480x298.jpg'" alt="full-hd" class="imgRound">
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 26.00</h4>
@@ -163,18 +163,18 @@
                     </div>
                     <div class="row mt-5">
                         <div class="col-6">
-                            <div class="d-flex">
-                                <img :src="'./img/stock-full-hd-04-480x298.jpg'" alt="full-hd" class="imgRound">
+                            <div class="d-flex card-on">
+                                <img :src="'./img/course-featured-image-01-480x298.jpg'" alt="full-hd" class="imgRound">
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 39.00</h4>
-                                <h4 class="fs-5 fw-bold">Masrer in jQuery in a Short Period of Time</h4>
+                                <h4 class="fs-5 fw-bold">Master in jQuery in a Short Period of Time</h4>
                                 <span><i class="fa-regular fa-user"> 6 Lesson</i></span>
                                 <span><i class="fa-regular fa-user"> 51 Student</i></span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex">
+                            <div class="d-flex ms-3 card-on">
                                 <img :src="'./img/stock-full-hd-05-480x298.jpg'" alt="full-hd" class="imgRound">
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 59.00</h4>
@@ -184,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center my-5"><button type="button" class="btn btn-success ">View all courses<i class="fa-regular fa-arrow-right-long"></i></button></div>
+                        <div class="text-center my-5"><button type="button" class="btn btn-success change ">View all courses<i class="fa-solid fa-arrow-right"></i></button></div>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="bg-hint py-5">
             <div class="container text-center">
                 <h6 class="mt-5">ENJOY READING ON MAXCOACH</h6>
                 <h2>Latest on <span class="green fw-lighter">Our Blogs</span></h2>
@@ -294,7 +294,7 @@
                 <img :src="'./img/home-6-services-image-1024x411.png'" alt="jumbo" class="jumbo">
                 <h5>Start today for getting <span class="green fw-lighter">Online Certification</span></h5>
                 <h2>You can be own guiding star with our help!</h2>
-                <button type="button" class="btn btn-success px-5 mb-5">Get started now</button>
+                <button type="button" class="btn btn-success px-5 mb-5 change">Get started now</button>
             </div>
 
         </section>
@@ -314,6 +314,9 @@ export default {
     background-color:$color-a;
     height: 500px;
     color: white ;
+}
+.bg-hint{
+    background-color: $hint;
 }
 .images{
     height: 350px;
@@ -349,15 +352,33 @@ h6{
 .small{
     font-size: 12px;
 }
-.imgOne{
-    margin-top:124px
+.card-h{
+    height: 500px;
+}
+.cont-pos{
+    position: relative;
+
+}
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+.img-one{
+    position: absolute;
+    top: 5%;
+}
+.img-two{
+    position: absolute;
+    top: 54%;
 }
 .font{
     font-size: 32px;
     font-weight: bolder;
 }
 .check{
-    margin-top: 300px;
+    position: absolute;
+    top: 35%;
 }
 .grey{
  background-color:white;
@@ -370,5 +391,19 @@ h6{
 }
 .jumbo{
     margin-bottom: 50px;
+}
+.change:hover{
+    background-color: white;
+    color:$color-i;
+    border-color:black;
+}
+.s-change:hover{
+    background-color: $color-i;
+    color:white;
+    border-color:$color-i ;
+}
+.card-on:hover{
+ background-color: white;
+
 }
 </style>

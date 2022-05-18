@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="container">
+    <div class="mt-5 bg">
+        <div class="container ">
             <div class="row">
                 <div class="col-6">
                     <ul>
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="container text-center">
-            <p class="fs-6">© 2020 MaxCoach. All Rights Reserved</p>
+            <p class="fs-6 color">© 2020 MaxCoach. All Rights Reserved</p>
         </div>
     </div>
 </template>
@@ -78,9 +78,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/vars.scss";
 .icons{
     font-size: 18px;
     padding: 10px;
+    color:$color-b;
+}
+.color{
+    color:$color-b;
+}
+.bg{
+    background-color: $bg_foo;
 }
 
 </style>
