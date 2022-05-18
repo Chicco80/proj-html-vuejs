@@ -12,3 +12,6 @@ $fa-font-path: './webfonts';
 //variabili
 @import './vars';
 
+body{
+    min-width: 1200px;
+}

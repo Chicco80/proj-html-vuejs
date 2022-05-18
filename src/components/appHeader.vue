@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <div class="container-fluid">
-      <!-- <img :src="'../img/jumbotron-background-wave-big.svg'" alt="" class="wave"> -->
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -27,6 +26,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
@@ -49,10 +49,6 @@ export default {
 @import "../styles/vars.scss";
 
 
-// .wave{
-//   transform: rotate(180deg);
-//   width:100%;
-// }
 .logo{
   height: 50px;
 }
@@ -66,8 +62,7 @@ export default {
 }
 ul{
   list-style-type: none;
-  // text-decoration: none;
-  
+
 }
 li{
   padding: 10px;
@@ -83,13 +78,11 @@ a{
   text-decoration: none;
 }
 .my-user{
-  // border: 1px solid white;
   width: 30px;
   height: 30px;
   margin-top: 10px;
   margin-right: 22px;
   line-height: 15px;
-  // border-radius: 50%;
 }
 
 

@@ -1,9 +1,16 @@
 <template>
 <div>
+    <!-- jumbo header -->
     <section class="bg">
         <div class="title text-center py-5">
             <h1>Learn At Your Own Pace!</h1>
             <p>Get teamed up with people with the same will</p>
+            <div class="right-bar">
+                <i class="fa-solid fa-chart-gantt fs-5"></i> 
+                <i class="fa-regular fa-life-ring fs-5"></i>
+                <i class="fa-solid fa-calendar-week fs-5"></i>
+                <i class="fa-solid fa-cart-shopping fs-5 "></i>
+            </div>
             <button type="button" class="btn btn-success s-change">Get started for free</button>
         </div>
         <div class="container images">
@@ -21,6 +28,9 @@
             </div>
         </div>
     </section> 
+    <!-- fine jumbo header -->
+
+    <!-- citazione -->
         <section class="second py-5 my-5 text-center">
             <div class="container">
                 <div class="row justify-content-center">
@@ -32,6 +42,9 @@
                 </div>
             </div>
         </section>
+        <!-- fine cit -->
+
+        <!-- sezione numeri -->
         <div class="container number">
             <div class="row justify-content-center text-center">
                 <div class="col-2">
@@ -52,6 +65,9 @@
                 </div>
             </div>
         </div>
+        <!-- fine sez. numeri -->
+
+        <!-- card asimmetriche -->
         <div class="container my-5 pb-5 cont-pos ">
             <div class="row ">
                 <div class="col-3 ">
@@ -108,6 +124,9 @@
                 </div>
             </div>
         </div>
+        <!-- fine card asimmetriche -->
+
+        <!-- corsi -->
         <section class="bg-hint py-5">
             <div class="container py-5">
                 <h6 class="text-center">CHOOSE A COURSE AND GET STARTED</h6>
@@ -218,6 +237,9 @@
                 </ul>
             </div>
         </section>
+        <!-- fine corsi -->
+
+            <!-- partner -->
         <section class="bg-hint py-5">
             <div class="container text-center">
                 <h6 class="mt-5">ENJOY READING ON MAXCOACH</h6>
@@ -236,6 +258,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- fine partner -->
+
+                <!-- artisti -->
                 <div class="col-4">
                     <div class="card" style="width: 25rem;">
                         <img :src="'./img/artist-blog-01-480x325.jpg'" class="card-img-top" alt="...">
@@ -262,11 +287,14 @@
             </div>
         </section>
         <section>
+            <!-- fine artisti -->
+
+            <!-- sezione icone -->
             <div class="container my-5 text-center">
                 <h6>WANNA TRASFORM YOUR LIFE?</h6>
-                <h2>Glad to <span class="green fw-lighter">Help You</span> Learn</h2>
+                <h2>Glad to <span class="green fw-lighter fs-3">Help You</span> Learn</h2>
             </div>
-            <div class="container">
+            <div class="container ">
                 <div class="row my-5">
                     <div class="col-3">
                         <i class="fa-regular fa-flag fs-1"></i> 
@@ -290,6 +318,9 @@
                     </div>
                 </div>
             </div>
+            <!-- fine icone -->
+
+            <!-- ultimo jumbo -->
             <div class="container text-center">
                 <img :src="'./img/home-6-services-image-1024x411.png'" alt="jumbo" class="jumbo">
                 <h5>Start today for getting <span class="green fw-lighter">Online Certification</span></h5>
@@ -309,6 +340,19 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
+.right-bar{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    width:30px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    background-color: white;
+    color: black;
+    
+}
 
 .bg{
     background-color:$color-a;
@@ -389,6 +433,7 @@ h6{
     border-radius:50%;
 
 }
+
 .jumbo{
     margin-bottom: 50px;
 }

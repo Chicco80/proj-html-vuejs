@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-5 bg">
+    <div class="mt-5 py-5 bg">
         <div class="container ">
             <div class="row">
                 <div class="col-6">
@@ -35,7 +35,8 @@
             </div>
         </div>
         <div class="container text-center">
-            <p class="fs-6 color">© 2020 MaxCoach. All Rights Reserved</p>
+            <span class="fs-6 color">© 2020 MaxCoach. All Rights Reserved</span>
+            <a class="arrow" href="#"><i class=" fa-solid fa-circle-arrow-up fs-1"></i></a>
         </div>
     </div>
 </template>
@@ -89,6 +90,14 @@ export default {
 }
 .bg{
     background-color: $bg_foo;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    color: $color-c;
+
 }
 
 </style>
