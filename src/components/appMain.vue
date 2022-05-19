@@ -1,217 +1,7 @@
 <template>
-<div>
-    <!-- jumbo header -->
-    <section class="bg">
-        <div class="title text-center py-5">
-            <h1>Learn At Your Own Pace!</h1>
-            <p>Get teamed up with people with the same will</p>
-            <div class="right-bar">
-                <i class="fa-solid fa-chart-gantt fs-5"></i> 
-                <i class="fa-regular fa-life-ring fs-5"></i>
-                <i class="fa-solid fa-calendar-week fs-5"></i>
-                <i class="fa-solid fa-cart-shopping fs-5 "></i>
-            </div>
-            <button type="button" class="btn btn-success s-change">Get started for free</button>
-        </div>
-        <div class="container images">
-            <div class="row ">
-                <div class="col-3">
-                    <img :src="'../img/home-6-hero-left-person-244x300.png'" alt="left-person" class="w-100">
-                </div>
-                <div class="col-6">
-                    <img :src="'../img/home-6-hero-poster-final.jpg'" alt="hero-poster" class="w-100 img-thumbnail">
-                    <img :src="'../img/icon-youtube-play.png'" alt="youtube-play" class="yout">
-                </div>
-                <div class="col-3">
-                    <img :src="'../img/home-6-hero-right-person.png'" alt="right-person" class="mt-5 pt-4">
-                </div>
-            </div>
-        </div>
-    </section> 
-    <!-- fine jumbo header -->
-
-    <!-- citazione -->
-        <section class="second py-5 my-5 text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-5">
-                        <p class="txt mt-5 pt-5">Let passion and determination be the guide along the way and develop at your own pace that's confortable. </p>
-                        <h6>FANNI MORENO</h6>
-                        <p class="found">/founder & CEO</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- fine cit -->
-
-        <!-- sezione numeri -->
-        <div class="container number">
-            <div class="row justify-content-center text-center">
-                <div class="col-2">
-                    <p class="green fs-2">1.926</p>
-                    <p class="small">FINISHED SESSION</p>
-                </div>
-                <div class="col-2">
-                    <p class="green fs-2">3.092+</p>
-                    <p class="small">ENROLLED LEANERS</p>
-                </div>
-                <div class="col-2">
-                    <p class="green fs-2">200</p>
-                    <p class="small">ONLINE INSTRUCTION</p>
-                </div>
-                <div class="col-2">
-                    <p class="green fs-2">100%</p>
-                    <p class="small">SATISFACTION RATE</p>
-                </div>
-            </div>
-        </div>
-        <!-- fine sez. numeri -->
-
-        <!-- card asimmetriche -->
-        <div class="container my-5 pb-5 cont-pos ">
-            <div class="row ">
-                <div class="col-3 ">
-                    <div class="card card-h box-shadow" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="fw-bold">Graphic Design</h5>
-                            <p class="card-text">Have a passion for graphics and arts? Show your talent with confidence and self-assertiveness.</p>
-                        </div>
-                        <img :src="'./img/home-6-service-image-01.png'" class="card-img-top" alt="img01">
-                    </div>
-                </div>
-                <div class="col-3 ">
-                    <div class="card card-h mb-3 img-one box-shadow" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="fw-bold">Businnes Administration</h5>
-                            <p class="card-text">Learners and encouraged to study the mechanism and structure of sistem administration.</p>
-                        </div>
-                        <img :src="'./img/home-6-service-image-02.png'" class="card-img-top" alt="img01">
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card check box-shadow" style="width: 26rem;">
-                        <div class="card-body">
-                            <h6 class="card-subtitle mb-2 text-muted">TOGETHER WE CAN CREATE</h6>
-                            <h5 class="card-title font">Service We <span class="green fs-2 fw-lighter">Can Provide</span> For My Client</h5>
-                            <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Select & customize courses to your preference</p>
-                            <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Change the tutor and make arrangement</p>
-                            <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Partecipate in event to join others</p>
-                            <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Get teh desired certificate delivered at house</p>
-                            <button type="button" class="btn btn-success s-change">Get started for free</button>
-        
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card card-h mt-4 box-shadow" style="width: 18rem;">
-                            <img :src="'./img/home-6-service-image-03.png'" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="fw-bold">Idea Discussion</h5>
-                            <p class="card-text">Get teamed up with the specialist who work and teach coding for years at famous university.</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-3 ms-1">
-                        <div class="card card-h img-two box-shadow" style="width: 18rem;">
-                            <img :src="'./img/home-6-service-image-04.png'" class="card-img-top mt-5 pt-5" alt="...">
-                        <div class="card-body mt-4 pt-4">
-                            <h5 class="fw-bold">Web Developement</h5>
-                            <p class="card-text">Learn to star building a webpage for scratch.you decide your own peace, course and speed.</p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- fine card asimmetriche -->
-
-        <!-- corsi -->
-        <section class="bg-hint py-5">
-            <div class="container py-5">
-                <h6 class="text-center">CHOOSE A COURSE AND GET STARTED</h6>
-                <h2 class="text-center">Latest Featured <span class="green fw-lighter fs-3">Courses</span></h2>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="d-flex card-on">
-                            <img :src="'./img/course-02-480x298.jpg'" alt="full-hd" class="imgRound">
-                            <div class="descrption ps-3">
-                            <h4 class="green">$40.00</h4>
-                            <h4 class="fs-5 fw-bold">Learning to write as a Professional Autor</h4>
-                            <span><i class="fa-regular fa-user"> 20 Lesson</i></span>
-                            <span><i class="fa-regular fa-user"> 50 Student</i></span>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="d-flex card-on ">
-                            <img :src="'./img/stock-full-hd-03-480x298.jpg'" alt="full-hd" class="imgRound">
-                            <div class="descrption ps-3">
-                            <h4 class="green">Free</h4>
-                            <h4 class="fs-5 fw-bold">Customer-centric Info-Tech Strategies</h4>
-                            <span><i class="fa-regular fa-user"> 24 Lesson</i></span>
-                            <span><i class="fa-regular fa-user"> 769 Student</i></span>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-6">
-                            <div class="d-flex card-on">
-                                <img :src="'./img/stock-full-hd-04-480x298.jpg'" alt="full-hd" class="imgRound">
-                                <div class="descrption ps-3">
-                                <h4 class="green"> $ 19.00</h4>
-                                <h4 class="fs-5 fw-bold">Opening Programming Courses for Everyone: Pyton</h4>
-                                <span><i class="fa-regular fa-user"> 24 Lesson</i></span>
-                                <span><i class="fa-regular fa-user"> 769 Student</i></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex ms-3 card-on">
-                                <img :src="'./img/stock-full-hd-06-480x298.jpg'" alt="full-hd" class="imgRound">
-                                <div class="descrption ps-3">
-                                <h4 class="green"> $ 26.00</h4>
-                                <h4 class="fs-5 fw-bold">Academic Listening and Note-taking</h4>
-                                <span><i class="fa-regular fa-user"> 14 Lesson</i></span>
-                                <span><i class="fa-regular fa-user"> 67 Student</i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-6">
-                            <div class="d-flex card-on">
-                                <img :src="'./img/course-featured-image-01-480x298.jpg'" alt="full-hd" class="imgRound">
-                                <div class="descrption ps-3">
-                                <h4 class="green"> $ 39.00</h4>
-                                <h4 class="fs-5 fw-bold">Master in jQuery in a Short Period of Time</h4>
-                                <span><i class="fa-regular fa-user"> 6 Lesson</i></span>
-                                <span><i class="fa-regular fa-user"> 51 Student</i></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex ms-3 card-on">
-                                <img :src="'./img/stock-full-hd-05-480x298.jpg'" alt="full-hd" class="imgRound">
-                                <div class="descrption ps-3">
-                                <h4 class="green"> $ 59.00</h4>
-                                <h4 class="fs-5 fw-bold">Introduction to Javascript for beginner</h4>
-                                <span><i class="fa-regular fa-user"> 14 Lesson</i></span>
-                                <span><i class="fa-regular fa-user"> 76 Student</i></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center my-5"><button type="button" class="btn btn-success change ">View all courses<i class="fa-solid fa-arrow-right"></i></button></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <!-- partner -->
+    <div>
         <section>
-            <!-- fine corsi -->
-
-            <!-- sezione partner -->
             <div class="container text-center py-5">
                 <h2>Why People Talk About <span class="green fw-lighter fs-2">MaxCoach</span>? </h2>
             </div>
@@ -286,50 +76,7 @@
             </div>
             </div>
         </section>
-        <section>
-            <!-- fine artisti -->
-
-            <!-- sezione icone -->
-            <div class="container my-5 text-center">
-                <h6>WANNA TRASFORM YOUR LIFE?</h6>
-                <h2>Glad to <span class="green fw-lighter fs-2">Help You</span> Learn</h2>
-            </div>
-            <div class="container ">
-                <div class="row my-5">
-                    <div class="col-3">
-                        <i class="fa-regular fa-flag fs-1"></i> 
-                        <h5 class="my-1">Idea Discussion</h5> 
-                        <p>Get teamed up with specialist who work and teach coding for years at famous universites</p>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa-solid fa-gear fs-1"></i>
-                        <h5 class="my-1">Web Developement</h5> 
-                        <p>Learn to start building a webpage from scratch. you decide your own peace, course and speed.</p>
-                    </div>
-                    <div class="col-3">
-                        <i class="fa-regular fa-life-ring fs-1"></i> 
-                        <h5 class="my-1">Sistem Administration</h5> 
-                        <p>Learners are encouraged to study the mechanism and structure of system administration</p>
-                    </div>
-                    <div class="col-3"> 
-                        <i class="fa-solid fa-tv fs-1"></i>
-                        <h5 class="my-1">Graphi Design</h5> 
-                        <p>Have a passion for a graphic and art? Show your talent with confidence and self-asseriveness</p>
-                    </div>
-                </div>
-            </div>
-            <!-- fine icone -->
-
-            <!-- ultimo jumbo -->
-            <div class="container text-center">
-                <img :src="'./img/home-6-services-image-1024x411.png'" alt="jumbo" class="jumbo">
-                <h5>Start today for getting <span class="green fw-lighter">Online Certification</span></h5>
-                <h2>You can be own guiding star with our help!</h2>
-                <button type="button" class="btn btn-success px-5 mb-5 change">Get started now</button>
-            </div>
-
-        </section>
-</div>
+    </div>
 </template>
 
 <script>
@@ -341,47 +88,12 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
-.right-bar{
-    position: fixed;
-    top: 150px;
-    right: 0px;
-    width:30px;
-    display: flex;
-    flex-direction: column;
-    border:1px solid black;
-    background-color: white;
-    color: black;
-    
-}
 
-.bg{
-    background-color:$color-a;
-    height: 500px;
-    color: white ;
-}
 .bg-hint{
     background-color: $hint;
 }
-.images{
-    height: 350px;
-    position: relative;
-}
 
-.yout{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%)
-}
-.second{
-    //  background-image: url("../img/maxcoach-shape-05.png");
-    color:black;
-    display: flex;
-}
-.txt{
-    font-weight: bolder;
-    font-size: 18px;
-}
+
 h6{
     font-size: 12px;
 }
@@ -396,47 +108,13 @@ h6{
 .small{
     font-size: 12px;
 }
-.card-h{
-    height: 500px;
-}
-.cont-pos{
-    position: relative;
 
-}
-.box-shadow{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
-}
-.img-one{
-    position: absolute;
-    top: 5%;
-}
-.img-two{
-    position: absolute;
-    top: 54%;
-}
-.font{
-    font-size: 32px;
-    font-weight: bolder;
-}
-.check{
-    position: absolute;
-    top: 35%;
-}
 .grey{
  background-color:white;
 }
-.imgRound{
-    width: 150px;
-    height: 150px;
-    border-radius:50%;
 
-}
 
-.jumbo{
-    margin-bottom: 50px;
-}
+
 .change:hover{
     background-color: white;
     color:$color-i;
@@ -447,8 +125,5 @@ h6{
     color:white;
     border-color:$color-i ;
 }
-.card-on:hover{
- background-color: white;
 
-}
 </style>
