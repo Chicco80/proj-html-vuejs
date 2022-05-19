@@ -103,7 +103,7 @@ ul{
     list-style-type: none;
 }
 li{
-    padding: 10px;
+    padding: 10px ;
 }
 
 </style>

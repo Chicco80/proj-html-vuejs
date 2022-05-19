@@ -12,7 +12,7 @@
                             <div class="descrption ps-3">
                             <h4 class="green">$40.00</h4>
                             <h4 class="fs-5 fw-bold">Learning to write as a Professional Autor</h4>
-                            <span><i class="fa-regular fa-user"> 20 Lesson</i></span>
+                            <span><i class="fa-regular fa-file-lines "> 20 Lesson</i></span>
                             <span><i class="fa-regular fa-user"> 50 Student</i></span>
                         </div>
                         </div>
@@ -23,7 +23,7 @@
                             <div class="descrption ps-3">
                             <h4 class="green">Free</h4>
                             <h4 class="fs-5 fw-bold">Customer-centric Info-Tech Strategies</h4>
-                            <span><i class="fa-regular fa-user"> 24 Lesson</i></span>
+                            <span><i class="fa-regular fa-file-lines"> 24 Lesson</i></span>
                             <span><i class="fa-regular fa-user"> 769 Student</i></span>
                         </div>
                         </div>
@@ -35,7 +35,7 @@
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 19.00</h4>
                                 <h4 class="fs-5 fw-bold">Opening Programming Courses for Everyone: Pyton</h4>
-                                <span><i class="fa-regular fa-user"> 24 Lesson</i></span>
+                                <span><i class="fa-regular fa-file-lines"> 24 Lesson</i></span>
                                 <span><i class="fa-regular fa-user"> 769 Student</i></span>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 26.00</h4>
                                 <h4 class="fs-5 fw-bold">Academic Listening and Note-taking</h4>
-                                <span><i class="fa-regular fa-user"> 14 Lesson</i></span>
+                                <span><i class="fa-regular fa-file-lines"> 14 Lesson</i></span>
                                 <span><i class="fa-regular fa-user"> 67 Student</i></span>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 39.00</h4>
                                 <h4 class="fs-5 fw-bold">Master in jQuery in a Short Period of Time</h4>
-                                <span><i class="fa-regular fa-user"> 6 Lesson</i></span>
+                                <span><i class="fa-regular fa-file-linesr"> 6 Lesson</i></span>
                                 <span><i class="fa-regular fa-user"> 51 Student</i></span>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                                 <div class="descrption ps-3">
                                 <h4 class="green"> $ 59.00</h4>
                                 <h4 class="fs-5 fw-bold">Introduction to Javascript for beginner</h4>
-                                <span><i class="fa-regular fa-user"> 14 Lesson</i></span>
+                                <span><i class="fa-regular fa-file-lines"> 14 Lesson</i></span>
                                 <span><i class="fa-regular fa-user"> 76 Student</i></span>
                                 </div>
                             </div>
@@ -116,7 +116,8 @@ export default {
     font-weight: bolder;
 }
 i{
-    font-size:12px
+    font-size:10px;
+    padding: 10px;
 }
 .color-btn{
     background-color: $color-c;
