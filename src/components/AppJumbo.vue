@@ -5,10 +5,10 @@
             <h1 class="display-4 fw-bold">Learn At Your Own Pace!</h1>
             <p>Get teamed up with people with the same will</p>
             <div class="right-bar">
-                <i class="fa-solid fa-chart-gantt fs-5"></i> 
-                <i class="fa-regular fa-life-ring fs-5"></i>
-                <i class="fa-solid fa-calendar-week fs-5"></i>
-                <i class="fa-solid fa-cart-shopping fs-5 "></i>
+                <i class="fa-solid fa-chart-gantt fs-5 py-2"></i> 
+                <i class="fa-regular fa-life-ring fs-5  py-2"></i>
+                <i class="fa-solid fa-calendar-week fs-5  py-2"></i>
+                <i class="fa-solid fa-cart-shopping fs-5  py-2"></i>
             </div>
             <button type="button" class="btn btn-success s-change p-3 btn">Get started for free</button>
         </div>

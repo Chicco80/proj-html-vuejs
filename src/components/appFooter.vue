@@ -99,5 +99,11 @@ export default {
     color: $color-c;
 
 }
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+}
 
 </style>

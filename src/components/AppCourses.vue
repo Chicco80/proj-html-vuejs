@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center my-5"><button type="button" class="btn btn-success s-change ">View all courses<i class="fa-solid fa-arrow-right"></i></button></div>
+                        <div class="text-center my-5"><button type="button" class="change color-btn">View all courses<i class="fa-solid fa-arrow-right px-2"></i></button></div>
                     </div>
                 </div>
             </div>
@@ -109,19 +109,20 @@ export default {
     color:$color-i;
     border-color:black;
 }
-.s-change:hover{
-    background-color: $color-i;
-    color:white;
-    border-color:$color-i ;
-}
+
 .green{
     color: $color-c;
     font-size: 24px;
     font-weight: bolder;
 }
-.s-change:hover{
-    background-color: $color-i;
-    color:white;
-    border-color:$color-i ;
+i{
+    font-size:12px
 }
+.color-btn{
+    background-color: $color-c;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
 </style>

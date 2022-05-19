@@ -92,7 +92,9 @@ export default {
 .bg-hint{
     background-color: $hint;
 }
-
+ul{
+    list-style-type: none;
+}
 .green{
     color: $color-c;
     font-size: 24px;
@@ -101,22 +103,12 @@ export default {
 .small{
     font-size: 12px;
 }
-
 .grey{
  background-color:white;
 }
-
-
-
-.change:hover{
-    background-color: white;
-    color:$color-i;
-    border-color:black;
+i{
+    font-size: 12px;
 }
-.s-change:hover{
-    background-color: $color-i;
-    color:white;
-    border-color:$color-i ;
-}
+
 
 </style>
