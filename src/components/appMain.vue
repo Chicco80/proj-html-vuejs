@@ -93,13 +93,6 @@ export default {
     background-color: $hint;
 }
 
-
-h6{
-    font-size: 12px;
-}
-.found{
-    font-size: 10px;
-}
 .green{
     color: $color-c;
     font-size: 24px;

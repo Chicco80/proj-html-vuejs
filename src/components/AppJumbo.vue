@@ -1,8 +1,8 @@
 <template>
     <div>
-         <section class="bg">
+        <section class="bg">
         <div class="title text-center py-5">
-            <h1>Learn At Your Own Pace!</h1>
+            <h1 class="display-4 fw-bold">Learn At Your Own Pace!</h1>
             <p>Get teamed up with people with the same will</p>
             <div class="right-bar">
                 <i class="fa-solid fa-chart-gantt fs-5"></i> 
@@ -10,7 +10,7 @@
                 <i class="fa-solid fa-calendar-week fs-5"></i>
                 <i class="fa-solid fa-cart-shopping fs-5 "></i>
             </div>
-            <button type="button" class="btn btn-success s-change">Get started for free</button>
+            <button type="button" class="btn btn-success s-change p-3 btn">Get started for free</button>
         </div>
         <div class="container images">
             <div class="row ">
@@ -33,9 +33,9 @@
         <section class="second py-5 my-5 text-center">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-5">
-                        <p class="txt mt-5 pt-5">Let passion and determination be the guide along the way and develop at your own pace that's confortable. </p>
-                        <h6>FANNI MORENO</h6>
+                    <div class="col-6">
+                        <p class="txt mt-5 pt-5 fs-3">Let passion and determination be the guide along the way and develop at your own pace that's confortable. </p>
+                        <h6 fw-bold>FANNIE MORENO</h6>
                         <p class="found">/founder & CEO</p>
                     </div>
                 </div>
@@ -66,6 +66,9 @@ export default {
     color: black;
     
 }
+.btn{
+    background-color: $color-c;
+}
 
 .bg{
     background-color:$color-a;
@@ -85,7 +88,11 @@ export default {
 }
 .txt{
     font-weight: bolder;
-    font-size: 18px;
+    
+}
+.found{
+    font-size: 10px;
+    color:$color-b;
 }
 .s-change:hover{
     background-color: $color-i;

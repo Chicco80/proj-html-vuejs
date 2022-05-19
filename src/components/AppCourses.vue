@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center my-5"><button type="button" class="btn btn-success change ">View all courses<i class="fa-solid fa-arrow-right"></i></button></div>
+                        <div class="text-center my-5"><button type="button" class="btn btn-success s-change ">View all courses<i class="fa-solid fa-arrow-right"></i></button></div>
                     </div>
                 </div>
             </div>
@@ -118,5 +118,10 @@ export default {
     color: $color-c;
     font-size: 24px;
     font-weight: bolder;
+}
+.s-change:hover{
+    background-color: $color-i;
+    color:white;
+    border-color:$color-i ;
 }
 </style>

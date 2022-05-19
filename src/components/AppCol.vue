@@ -53,7 +53,7 @@
                             <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Change the tutor and make arrangement</p>
                             <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Partecipate in event to join others</p>
                             <p class="card-text fs-6"><i class="fa-solid fa-check green fs-6"></i>Get teh desired certificate delivered at house</p>
-                            <button type="button" class="btn btn-success s-change">Get started for free</button>
+                            <button type="button" class="btn btn s-change">Get started for free</button>
         
                         </div>
                     </div>
@@ -102,8 +102,6 @@ export default {
 }
 .box-shadow{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
 }
 .img-one{
     position: absolute;
@@ -120,6 +118,10 @@ export default {
 .check{
     position: absolute;
     top: 35%;
+}
+.btn{
+    background-color: $color-c;
+    color:white;
 }
 .s-change:hover{
     background-color: $color-i;

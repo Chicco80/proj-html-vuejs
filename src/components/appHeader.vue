@@ -3,10 +3,10 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-3">
+          <div class="col-3 ">
             <img :src="'../img/light-logo.png'" alt="logo " class="logo mt-2">
           </div>
-          <div class="col-6">
+          <div class="col-6 py-2">
             <ul class="d-flex">
               <li v-for="dato in myDati" :key="dato"> <a href="#"></a>{{dato.link}}
                 <span><i class="fa-solid fa-chevron-down"></i></span>
@@ -16,7 +16,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-3 py-2">
             <div class="input-group mb-3">
               <i class="fa-regular fa-user fs-5 my-user"></i>
               <input type="text" class="form-control mt-2" placeholder="Search.." aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -66,8 +66,28 @@ ul{
 }
 li{
   padding: 10px;
+  position: relative;
+}
+li:hover {
+  color: white;
+  cursor: pointer;
+}
 
+li::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
 
+li:hover::before {
+  transform: scaleX(1);
 }
 i{
   font-size: 10px;
